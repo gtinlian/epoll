@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.E1h5xHL6Ts/main.cpp
+sys/socket.h
+-
+sys/types.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+sys/epoll.h
+-
+string.h
+-
+unistd.h
+-
+
