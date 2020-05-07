@@ -37,7 +37,7 @@ int main(){
 
 
     Epoll e;
-    e = nfd;
+    e += nfd;
 
     while(true) {
         int len = e.wait(ev, 1024);
